@@ -1,0 +1,36 @@
+the idea behind form toggle is
+in the button you wan to toggle your form add thses attributes
+    data-bs-toggle="modal" data-bs-target="#addStudentModal"
+
+an din the form it sel/ the div holding the form
+    <div class="modal fade" id="addStudentModal" tabindex="-1" aria-labelledby="addStudentModalLabel">
+    NOTE,
+    MODEL
+    This is the base class for any modal dialog.
+
+    It styles the container to be a popup overlay, hidden by default, and ready to be toggled by JavaScript.
+    MODAL-DIALOG
+    A child container that centers the modal content and sets its width.
+
+    MODAL-CONTENT
+    Wraps the main contents of the modal (header, body, footer).
+
+    FADE
+    This class adds a fade-in and fade-out animation to the modal when it is shown or hidden.
+
+    If you omit fade, the modal appears/disappears instantly.
+    With fade, the modal smoothly transitions.
+    SHOW
+    Temporarily added by Bootstrap’s JS when the modal is visible (not a subclass, but important).
+
+    Triggers the actual display and animation.
+    MODAL-BACKDROP
+    Automatically added by JS when modal is shown; darkens the background.
+
+    Common Modal "Subclasses" (modifier classes for modal behavior/size):
+    modal-lg — Large modal
+    modal-sm — Small modal
+    modal-xl — Extra large modal
+    modal-dialog-centered — Vertically centers the modal
+    modal-dialog-scrollable — Adds scroll to modal body if content overflows
+    modal-fullscreen — Fullscreen modal
